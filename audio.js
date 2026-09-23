@@ -5,7 +5,7 @@ let sourceAtual = null;
 
 // Pré-carrega e decodifica o MP3
 async function carregarAudio() {
-  const resposta = await fetch("musica.mp3");
+  const resposta = await fetch("comentar.ogg");
   const arrayBuffer = await resposta.arrayBuffer();
 
   audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
