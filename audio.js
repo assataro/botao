@@ -30,7 +30,7 @@ function tocar() {
   sourceAtual.connect(audioContext.destination);
 
   // Começa do início
-  sourceAtual.start(0);
+  sourceAtual.start(0, 1);
 }
 
 document
