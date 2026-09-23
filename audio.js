@@ -11,6 +11,7 @@ async function carregarAudio() {
   audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
 
   console.log("Áudio carregado!");
+  document.querySelector("#btnVamos").styles.display = "block";
 }
 
 carregarAudio();
